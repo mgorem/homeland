@@ -1,7 +1,14 @@
-import React from 'react';
+import React from "react";
+
+// components
+import { Banner } from "../components/index";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div className="min-h-[1800px]">
+      <Banner />
+    </div>
+  );
 };
 
 export default Home;
